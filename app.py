@@ -10,6 +10,7 @@ import numpy as np
 import seaborn as sns
 import streamlit as st
 import pickle
+import sklearn
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder

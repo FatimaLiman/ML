@@ -17,7 +17,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error,r2_score,accuracy_score
 
 with open('first_iris_model.pkl', 'rb') as file:
-    loaded_model = pickle.load(file)
+    model = pickle.load(file)
     
 # streamlit UI
 st.title('Iris Flower Prediction App')

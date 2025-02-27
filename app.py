@@ -35,5 +35,5 @@ if st.button('predict'):
     prediction = model.predict(user_input)
     species_mapping = {0: 'setosa', 1:'versicolor', 2:'virgincia'}
     predicted_species = species_mapping.get(int(prediction[0]), 'unknown')
-    st.write(f'The predicted species is :{species_mapping}')
+    st.write(f'The predicted species is :{predicted_species}')
     
